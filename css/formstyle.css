@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.register {
+	background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+	margin-top: 2%;
+	padding: 3%;
+}
+
+.register-left {
+	text-align: center;
+	color: #fff;
+	margin-top: 4%;
+}
+
+.register-left img {
+	margin-top: 15%;
+	margin-bottom: 5%;
+	width: 25%;
+	-webkit-animation: mover 2s infinite alternate;
+	animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+@keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+.register-left p {
+	font-weight: lighter;
+	padding: 12%;
+	margin-top: -9%;
+}
+
+.register-left input {
+	border: none;
+	border-radius: 7px;
+	padding: 2%;
+	width: 60%;
+	background: #f8f9fa;
+	font-weight: bold;
+	color: #383d41;
+	margin-top: 30%;
+	margin-bottom: 3%;
+}
+
+.register-right {
+	background: #f8f9fa;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+}
+
+.register .nav-tabs {
+	margin-top: 3%;
+	border: none;
+	background: #0062cc;
+	border-radius: 12px;
+	width: 25%;
+	float: right;
+	position: absolute;
+	right: 25px;
+}
+
+.register .nav-tabs .nav-link {
+	padding: 2%;
+	height: 35px;
+	font-weight: 600;
+	color: #fff;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.register .nav-tabs .nav-link:hover {
+	border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+	width: 100px;
+	color: #0062cc;
+	border: 2px solid #0062cc;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+.register .register-heading {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: -10%;
+	color: #495057;
+}
+
+.register .register-form {
+	padding: 10%;
+	margin-top: 5%;
+}
+
+.form-group,
+.form-control {
+	font-size: 13px;
+}
+
+.padding-right-10 {
+	padding-right: 10px;
+}
+
+.max1 .radio:hover {
+	cursor: pointer;
+}
+
+.btnRegister {
+	margin-top: 7%;
+	border: none;
+	border-radius: 12px;
+	padding: 2%;
+	background: #0062cc;
+	color: #fff;
+	font-weight: 600;
+	width: 35%;
+}
+
+
+.drag-area {
+	border: 2px dashed #fff;
+	height: 500px;
+	width: 700px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.drag-area.active {
+	border: 2px solid #fff;
+}
+
+.drag-area .icon {
+	font-size: 100px;
+	color: #fff;
+}
+
+.drag-area header {
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.drag-area span {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #5256ad;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.drag-area img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.file-upload {
+	display: inline-flex;
+	align-items: center;
+	font-size: 15px;
+}
+
+.file-upload__input {
+	display: none;
+}
+
+.file-upload__button {
+	-webkit-appearance: none;
+	border-radius: 4px;
+	outline: none;
+	padding: 0.5em 0.8em;
+	margin-right: 15px;
+	color: gray;
+	font-size: 1em;
+	font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.file-upload__button:active {
+	background: #00745d;
+}
+
+.file-upload__label {
+	max-width: 250px;
+	font-size: 0.95em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: "Quicksand", sans-serif;
+}
+
+.formerror {
+	color: red;
+}

@@ -1,0 +1,168 @@
+.image-container {
+  background-image: url(images/DRDO-Headquarters.jpg);
+  background-size: 100%;
+  height: 750px;
+  filter: blur(5px);
+}
+
+
+
+.top-container {
+  position: absolute;
+  top: 150px;
+
+}
+
+
+
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.profile {
+  text-align: left;
+}
+
+.cards {
+  margin-bottom: 20px;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 400px 10px 400px;
+
+
+}
+
+hr {
+
+  border-style: dotted none none;
+  border-top-style: dotted;
+  border-color: rgb(38, 81, 173);
+  border-width: 5px;
+  align-items: center;
+  height: 10px;
+  width: 1000px;
+  color: rgb(38, 81, 173);
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #367d7f;
+}
+
+.middle-container {}
+
+.profile {
+  margin: 100px auto;
+}
+
+
+.bottom-container {}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.comp-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+
+
+
+.pro {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999E;
+}
+
+
+footer {
+  background-color: rgb(50, 64, 168);
+  height: auto;
+  width: cover;
+  font-family: "Open sans";
+  padding-top: 40px;
+  color: #fff;
+
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 14px;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.socials a i {
+  font-size: 1.1rem;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
